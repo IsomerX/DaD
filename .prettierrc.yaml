@@ -3,7 +3,7 @@ tabWidth: 4
 semi: false
 singleQuote: true
 jsxSingleQuote: true
-endOfLine: "lf"
+endOfLine: 'lf'
 printWidth: 120
 bracketSpacing: true
 bracketSameLine: false
