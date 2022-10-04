@@ -37,9 +37,8 @@
     },
     "lint-staged": {
         "src/**/*.{ts,tsx}": "eslint --cache --fix",
-        "src/**/*.{ts,tsx,css,md}": "prettier --write --ignore-path .gitignore .",
         "**/*.{ts,tsx,json}": [
-            "prettier --write",
+            "prettier --write --ignore-path .gitignore",
             "git add"
         ]
     }
